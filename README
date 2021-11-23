@@ -1,0 +1,19 @@
+# Instructions
+
+## To RUN
+$ python sat.py file_name method findAllSolutions
+
+Variables: 
+    1) sat.py        - file containing the main()
+    2) file_name     - should be the name of the cnf file containing the literals and clauses
+    3) method can be -
+        1 - Assignes first unissigned var X to (X, True, False)
+        2 - Assignes every var from unitary clause or assignes first unissigned var
+        3 - Assignes the variable most/least frequent first
+    4) findAllSolutions - 
+        yes - returns all the possible solutions of the Problem
+        no - returns the first possible solution that is found
+
+
+example: 
+$ python sat.py uf20-01.cnf 2 no
